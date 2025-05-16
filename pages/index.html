@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Michelle's Cookies - Homemade treats baked with love in Nairobi">
+    <title>Michelle's Cookies - Fresh Baked Happiness</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar" role="navigation">
+        <div class="bakery-logo">
+            <i class="fas fa-cookie-bite" aria-hidden="true"></i>
+            <span>Michelle's Cookies</span>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation" aria-expanded="false">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="menu-links">
+            <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Visit Us</a></li>
+        </ul>
+    </nav>
+
+    <header class="bakery-welcome">
+        <div class="welcome-message">
+            <h1>Welcome to Michelle's Cookies</h1>
+            <p>Where Every Bite Tastes Like Home</p>
+            <div class="cta-container">
+                <a href="#treats-menu" class="taste-button">Explore Our Treats</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="treats-menu" class="treats-showcase">
+            <h2>Our Fresh Baked Goodies</h2>
+            <div class="treats-grid">
+                <article class="treat-card" data-aos="fade-up">
+                    <img src="/assets/icons8-cookies-66.png" alt="Freshly Baked Cookies" width="66" height="66">
+                    <h3>Homestyle Cookies</h3>
+                    <p>Baked fresh daily with love and premium ingredients.</p>
+                </article>
+                <article class="treat-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/assets/icons8-donuts-64.png" alt="Artisan Donuts" width="64" height="64">
+                    <h3>Artisan Donuts</h3>
+                    <p>Handcrafted with creative toppings and fillings.</p>
+                </article>
+                <article class="treat-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="/assets/icons8-cake-64.png" alt="Custom Cakes" width="64" height="64">
+                    <h3>Custom Cakes</h3>
+                    <p>Made-to-order cakes for your special moments.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="fresh-updates" aria-label="Latest Treats">
+            <h2>Fresh from the Oven</h2>
+            <div class="treats-slider">
+                <div class="bakery-slides" role="region" aria-label="Latest Treats Slideshow">
+                    <article class="slide active" role="tabpanel" aria-labelledby="slide1">
+                        <h3 id="slide1">Double Chocolate Dream Cookies</h3>
+                        <img class="treat-image" src="/assets/cookies1.jpeg" alt="Rich Double Chocolate Cookies">
+                        <p>Our signature chocolate cookies loaded with premium dark chocolate chunks</p>
+                        <span class="date">Baked Fresh Today</span>
+                    </article>
+                    <article class="slide" role="tabpanel" aria-labelledby="slide2">
+                        <h3 id="slide2">Cookie Gift Box</h3>
+                        <img class="treat-image" src="/assets/cookies2.jpeg" alt="Assorted Cookie Gift Box">
+                        <p>A delightful assortment of our most-loved flavors</p>
+                        <span class="date">Perfect for Gifting</span>
+                    </article>
+                    <article class="slide" role="tabpanel" aria-labelledby="slide3">
+                        <h3 id="slide3">Michelle's Sweet Sampler</h3>
+                        <img class="treat-image" src="/assets/donuts2.jpeg" alt="Sweet Treat Sampler Box">
+                        <p>Try our bestsellers in one beautiful box</p>
+                        <span class="date">Limited Daily Availability</span>
+                    </article>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev" aria-label="Previous treat">❮</button>
+                    <button class="next" aria-label="Next treat">❯</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Visit Our Kitchen</h3>
+                <address>
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Kilimani Mall, Nairobi</p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+254712345678">+254 712 345 678</a></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:hello@michellescookies.com">hello@michellescookies.com</a></p>
+                </address>
+            </div>
+            <nav class="footer-section" aria-label="Footer Navigation">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Visit Us</a></li>
+                </ul>
+            </nav>
+            <div class="footer-section">
+                <h3>Follow Our Journey</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Follow us on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Michelle's Cookies. Baked with love in Nairobi.</p>
+        </div>
+    </footer>
+
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
