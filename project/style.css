@@ -91,7 +91,7 @@ body {
     justify-content: center;
     text-align: center;
     color: var(--cookie-brown);
-    padding: 0 ;
+    padding: 1rem ;
 }
 
 .welcome-message h1 {
